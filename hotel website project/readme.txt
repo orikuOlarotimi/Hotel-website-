@@ -1,0 +1,1 @@
+In this project ill be working on developing a website for a hotel using react, html, css in order to master my knowledge on  front end engineering
