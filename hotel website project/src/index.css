@@ -2024,7 +2024,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
       justify-content: center;
       flex-direction: column;
       align-items: center;
-      padding: 0;
+      padding:0 ;
     }
   
     .comments-general-subdiv {

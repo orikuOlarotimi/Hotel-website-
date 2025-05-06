@@ -22,7 +22,10 @@ const ActiveSlider = () => {
           slidesPerView={3}
           spaceBetween={50}
           keyboard={{ enabled: true }} 
-          mousewheel={{ forceToAxis: true }}
+          mousewheel={{
+              forceToAxis: true,
+              releaseOnEdges: true,
+            }}
           autoplay={{
           delay: 1500, // Time in milliseconds between slides
           disableOnInteraction: false, // Continue autoplay after user interaction
@@ -34,6 +37,7 @@ const ActiveSlider = () => {
             414: { 
             slidesPerView: 2, 
             direction: "vertical", // Vertical layout on mobile
+            
           },
           640: { 
             slidesPerView: 1, 
