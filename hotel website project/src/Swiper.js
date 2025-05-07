@@ -34,11 +34,14 @@ const ActiveSlider = () => {
         freeMode={true}
           modules={[Keyboard, Mousewheel, FreeMode, Autoplay]}
           breakpoints={{
-            414: { 
-            slidesPerView: 2, 
-            direction: "vertical", // Vertical layout on mobile
-            
-          },
+             0: {
+                slidesPerView: 2,
+                direction: "vertical", // Applies to 0px and up
+              },
+              480: {
+                slidesPerView: 1,
+                direction: "vertical", // Applies from 480px and up
+              },
           640: { 
             slidesPerView: 1, 
             direction: "vertical", // Vertical layout on mobile
