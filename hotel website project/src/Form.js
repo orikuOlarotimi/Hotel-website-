@@ -18,18 +18,18 @@ const Form = () => {
               <div id='form-body'>
                   <div className='form-div' >
                     <input type="text" className="myInput" placeholder="Abuja, Port Harcort, Ibadan e.t.c..." />
-                  <button onclick="handleClick()" className='lower-form-btn'>  <FaCaretDown style={{ width: "30px", height: "25px", color:"#AAAAAA"}} /></button>
+                  <button onclick="handleClick()" className='lower-form-btn'>  <FaCaretDown  className='form-dropdown-btn-form-div'/></button>
                   </div>
                   <div className='form-div'>
                     <input type="text" className="myInput" placeholder="Property Format" />
-                  <button onclick="handleClick()" className='lower-form-btn'><FaCaretDown style={{ width: "30px", height: "25px", color:"#AAAAAA"}} /></button>
+                  <button onclick="handleClick()" className='lower-form-btn'><FaCaretDown className='form-dropdown-btn-form-div' /></button>
                   </div>
                   <div className='form-div'>
                     <input type="text" className="myInput" placeholder="No of Rooms" />
-                  <button onclick="handleClick()" className='lower-form-btn'><FaCaretDown style={{ width: "30px", height: "25px", color:"#AAAAAA"}} /></button>
+                  <button onclick="handleClick()" className='lower-form-btn'><FaCaretDown  className='form-dropdown-btn-form-div'/></button>
                   </div>
 
-                  <div style={{width:"100%", display:"flex", justifyContent:"end", marginTop:"14px"}}> <button  id='form-filter-btn'> <SlEqualizer /> Filter Search</button></div>
+                  <div className=' form-filter-btn-icon'> <button  id='form-filter-btn'> <SlEqualizer /> Filter Search</button></div>
 
 
                     <div style={{width:"100%", display:"flex", alignContent:"center", justifyContent:"center", marginTop:"64px"}}>

@@ -43,7 +43,7 @@ const ActiveSlider = () => {
                 direction: "vertical", // Applies from 480px and up
               },
           640: { 
-            slidesPerView: 1, 
+            slidesPerView: 2, 
             direction: "vertical", // Vertical layout on mobile
           },  
           1024: { 
