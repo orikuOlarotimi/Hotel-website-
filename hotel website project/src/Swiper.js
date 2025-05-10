@@ -141,8 +141,8 @@ export const CommentSlider = () => {
           disableOnInteraction: false, 
            }}
 
-        freeMode={true}
-        
+        freeMode={false}
+        centeredSlides={false}
         modules={[Keyboard, Mousewheel,FreeMode, Autoplay]}
       >
         {comments.map((comment) => {

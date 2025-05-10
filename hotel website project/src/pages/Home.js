@@ -442,21 +442,21 @@ const Home = () => {
 
         <CommentSlider/>
       </div>
-{/* agent banner */}
-      <div className='Agent-banner '> 
-        <div className='Agent-subdiv1'>
-          <div className='agent-img-div'>
-            <img src={agent} alt="agent" className='agent-img'/>
-          </div> 
-          <div >
-            <h2 className='Agent-header1'>Become an Agent.</h2>
-            <p className='Agent-paragraph'>Become an agent and lawfully gain commissions from us.</p>
-          </div>
-          <button className='Agent-button'>
-            Register Now
-          </button>
-        </div>
-      </div>
+      {/* agent banner */}
+            <div className='Agent-banner '> 
+              <div className='Agent-subdiv1'>
+                <div className='agent-img-div'>
+                  <img src={agent} alt="agent" className='agent-img'/>
+                </div> 
+                <div >
+                  <h2 className='Agent-header1'>Become an Agent.</h2>
+                  <p className='Agent-paragraph'>Become an agent and lawfully gain commissions from us.</p>
+                </div>
+                <button className='Agent-button'>
+                  Register Now
+                </button>
+              </div>
+            </div>
     </>
   );
 }
