@@ -39,14 +39,10 @@ const ActiveSlider = () => {
                 direction: "vertical", // Applies to 0px and up
               },
               480: {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 direction: "vertical", // Applies from 480px and up
-              },
-          640: { 
-            slidesPerView: 2, 
-            direction: "vertical", // Vertical layout on mobile
-          },  
-          1024: { 
+              }, 
+          1201: { 
             slidesPerView: 3, 
             direction: "horizontal", // Horizontal layout on desktop
           },

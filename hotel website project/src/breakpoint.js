@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 function getBreakpoint(width) {
   if (width <= 480) return "mobile";
   if (width <= 768) return "tablet";
+  if (width <= 1200) return "mid-laptop";
   return "desktop";
 }
 
